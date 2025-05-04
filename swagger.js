@@ -11,7 +11,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: "https://library-managment-2k7k.vercel.app/",
+        url: "https://library-managment-2k7k.vercel.app",
       },
     ],
   },
