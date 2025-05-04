@@ -11,11 +11,11 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: "/api",
+        url: "http://localhost:3000",
       },
     ],
   },
-  apis: ["../routes/*.js"],
+  apis: ["./routes/*.js"],
 };
 
 const swaggerDocs = swaggerJSDoc(swaggerOptions);
